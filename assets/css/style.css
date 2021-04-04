@@ -1,0 +1,47 @@
+.wrap {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.block-a {
+  background-color: #228;
+  height: 100px;
+}
+
+.block-b {
+  background-color: rgba(34, 130, 40, .5);
+  position: relative;
+  top: -50px;
+  z-index: 2;
+  height: 100px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form {
+  margin-left: 50px;
+}
+.form-radio {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+}
+.form-radio-label::before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid rgb(95, 143, 160);
+  border-radius: 5px;
+}
+.form-radio-label::before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid rgb(95, 143, 160);
+  border-radius: 5px;
+}
